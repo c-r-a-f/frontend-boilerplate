@@ -1,2 +1,2 @@
-dev→yarn dev  
-prod→yarn start
+dev→ `yarn dev`  
+prod→ `yarn start`
