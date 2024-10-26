@@ -1,0 +1,7 @@
+{
+  "extends": ["biome:recommended"],
+  "rules": {
+    "no-console": "warn",
+    "semi": ["error", "always"]
+  }
+}
