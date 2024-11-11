@@ -11,15 +11,21 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome lint",
-    "test": "bun test"
+    "test": "bun test",
+    "prisma": "prisma generate"
   },
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "prisma": "latest",
+    "@prisma/client": "latest",
+    "socket.io": "latest",
+    "socket.io-client": "latest"
   },
   "devDependencies": {
     "biome": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "prisma": "latest"
   }
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Home: React.FC = () => {
+const TodoList: React.FC = () => {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState('');
 
@@ -77,4 +77,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default TodoList;
